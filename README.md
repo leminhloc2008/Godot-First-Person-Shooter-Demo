@@ -7,6 +7,7 @@ You can use them without credit but I'd appreciate it if you do!
 WASD or Arrow keys to move. \
 Space to jump. \
 Left mouse button to shoot. \
-Scroll wheel to change weapons. \
+Scroll wheel to change weapons. 
 
 # Features:
+You can pick Ammo pack or Health pack to get more ammos or health.
