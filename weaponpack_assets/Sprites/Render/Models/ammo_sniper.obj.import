@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ammo_sniper.obj-440f6bf13e8bf2d8ab16bbdd64a6b908.mesh"
+
+[deps]
+
+files=[ "res://.import/ammo_sniper.obj-440f6bf13e8bf2d8ab16bbdd64a6b908.mesh" ]
+
+source_file="res://weaponpack_assets/Sprites/Render/Models/ammo_sniper.obj"
+dest_files=[ "res://.import/ammo_sniper.obj-440f6bf13e8bf2d8ab16bbdd64a6b908.mesh", "res://.import/ammo_sniper.obj-440f6bf13e8bf2d8ab16bbdd64a6b908.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

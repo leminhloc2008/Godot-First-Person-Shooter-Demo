@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ammobox.obj-698a9e2d4146efd97eb1de0121c34580.mesh"
+
+[deps]
+
+files=[ "res://.import/ammobox.obj-698a9e2d4146efd97eb1de0121c34580.mesh" ]
+
+source_file="res://Models/Pickups/ammobox.obj"
+dest_files=[ "res://.import/ammobox.obj-698a9e2d4146efd97eb1de0121c34580.mesh", "res://.import/ammobox.obj-698a9e2d4146efd97eb1de0121c34580.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

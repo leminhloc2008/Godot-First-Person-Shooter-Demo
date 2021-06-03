@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/healbox.obj-a64ad92f42f775bac0d95650102a1220.mesh"
+
+[deps]
+
+files=[ "res://.import/healbox.obj-a64ad92f42f775bac0d95650102a1220.mesh" ]
+
+source_file="res://Models/Pickups/healbox.obj"
+dest_files=[ "res://.import/healbox.obj-a64ad92f42f775bac0d95650102a1220.mesh", "res://.import/healbox.obj-a64ad92f42f775bac0d95650102a1220.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flamethrowerHandle.obj-3a4f875a4d4f11060666139e88ffa3f7.mesh"
+
+[deps]
+
+files=[ "res://.import/flamethrowerHandle.obj-3a4f875a4d4f11060666139e88ffa3f7.mesh" ]
+
+source_file="res://weaponpack_assets/Sprites/Render/Models/flamethrowerHandle.obj"
+dest_files=[ "res://.import/flamethrowerHandle.obj-3a4f875a4d4f11060666139e88ffa3f7.mesh", "res://.import/flamethrowerHandle.obj-3a4f875a4d4f11060666139e88ffa3f7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

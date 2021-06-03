@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/uzi.obj-c7ebf001255bfc4e2477b3c2f79d8320.mesh"
+
+[deps]
+
+files=[ "res://.import/uzi.obj-c7ebf001255bfc4e2477b3c2f79d8320.mesh" ]
+
+source_file="res://weaponpack_assets/Sprites/Render/Models/uzi.obj"
+dest_files=[ "res://.import/uzi.obj-c7ebf001255bfc4e2477b3c2f79d8320.mesh", "res://.import/uzi.obj-c7ebf001255bfc4e2477b3c2f79d8320.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

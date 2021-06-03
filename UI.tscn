@@ -1,0 +1,97 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://UI/UI_Square.png" type="Texture" id=1]
+[ext_resource path="res://Font/GameFont.tres" type="DynamicFont" id=2]
+[ext_resource path="res://UI.gd" type="Script" id=3]
+[ext_resource path="res://weaponpack_assets/Sprites/Render/machinegun.png" type="Texture" id=4]
+[ext_resource path="res://weaponpack_assets/Sprites/Render/shotgun.png" type="Texture" id=5]
+[ext_resource path="res://weaponpack_assets/Sprites/Render/pistol.png" type="Texture" id=6]
+
+[node name="UI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HealthBar" type="TextureProgress" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 19.2455
+margin_top = -48.8815
+margin_right = 219.245
+margin_bottom = -16.8815
+value = 50.0
+texture_under = ExtResource( 1 )
+texture_progress = ExtResource( 1 )
+tint_under = Color( 0.211765, 0.211765, 0.211765, 1 )
+tint_progress = Color( 1, 0, 0, 1 )
+nine_patch_stretch = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScoreText" type="Label" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -268.722
+margin_top = 44.4823
+margin_right = 2138.28
+margin_bottom = 534.482
+rect_scale = Vector2( 0.0926306, 0.139023 )
+custom_fonts/font = ExtResource( 2 )
+text = "Score: 500"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Weapon" type="Label" parent="."]
+margin_left = 75.205
+margin_top = 7.85722
+margin_right = 189.205
+margin_bottom = 41.8572
+rect_scale = Vector2( 0.0616931, 0.0647933 )
+custom_fonts/font = ExtResource( 2 )
+text = "Weapon"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="machineGun" type="Sprite" parent="."]
+position = Vector2( 143.414, 99.7933 )
+texture = ExtResource( 4 )
+
+[node name="pistol" type="Sprite" parent="."]
+position = Vector2( 123.848, 108.285 )
+texture = ExtResource( 6 )
+
+[node name="shotgun" type="Sprite" parent="."]
+position = Vector2( 140.894, 94.7536 )
+texture = ExtResource( 5 )
+
+[node name="AmmoText" type="Label" parent="."]
+anchor_top = 0.096
+anchor_bottom = 0.096
+margin_left = 178.382
+margin_top = 34.8195
+margin_right = 736.382
+margin_bottom = 524.82
+rect_scale = Vector2( 0.176918, 0.207076 )
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 0.694118, 0.694118, 1 )
+text = "50"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 25.5842
+margin_top = -129.89
+margin_right = 1719.58
+margin_bottom = 360.11
+rect_scale = Vector2( 0.107076, 0.126115 )
+custom_fonts/font = ExtResource( 2 )
+text = "Health"

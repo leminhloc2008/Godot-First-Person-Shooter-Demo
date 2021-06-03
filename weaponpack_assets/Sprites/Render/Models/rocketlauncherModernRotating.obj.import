@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rocketlauncherModernRotating.obj-18ca393d68c7e7cabd928866be6400af.mesh"
+
+[deps]
+
+files=[ "res://.import/rocketlauncherModernRotating.obj-18ca393d68c7e7cabd928866be6400af.mesh" ]
+
+source_file="res://weaponpack_assets/Sprites/Render/Models/rocketlauncherModernRotating.obj"
+dest_files=[ "res://.import/rocketlauncherModernRotating.obj-18ca393d68c7e7cabd928866be6400af.mesh", "res://.import/rocketlauncherModernRotating.obj-18ca393d68c7e7cabd928866be6400af.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

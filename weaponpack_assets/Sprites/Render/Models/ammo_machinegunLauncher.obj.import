@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ammo_machinegunLauncher.obj-0df22011c2a70cb8ce5ac893cecb4524.mesh"
+
+[deps]
+
+files=[ "res://.import/ammo_machinegunLauncher.obj-0df22011c2a70cb8ce5ac893cecb4524.mesh" ]
+
+source_file="res://weaponpack_assets/Sprites/Render/Models/ammo_machinegunLauncher.obj"
+dest_files=[ "res://.import/ammo_machinegunLauncher.obj-0df22011c2a70cb8ce5ac893cecb4524.mesh", "res://.import/ammo_machinegunLauncher.obj-0df22011c2a70cb8ce5ac893cecb4524.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
